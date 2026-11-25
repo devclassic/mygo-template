@@ -18,7 +18,6 @@ func main() {
 
 	mygo.App.WhenReady(func() {
 		win := mygo.NewWindow(mygo.WindowOptions{
-			Title:  "hello",
 			Width:  960,
 			Height: 640,
 			URL:    "/",
