@@ -25,6 +25,7 @@ func main() {
 		})
 		win.OnReadyToShow(win.Show)
 	})
+
 	if err := mygo.App.Run(); err != nil {
 		log.Fatal(err)
 	}
