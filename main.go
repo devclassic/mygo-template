@@ -14,7 +14,7 @@ func (Native) Hello(name string) any {
 }
 
 func main() {
-	mygo.Bind(Native{})
+	mygo.Bind(&Native{})
 
 	mygo.App.WhenReady(func() {
 		win := mygo.NewWindow(mygo.WindowOptions{
